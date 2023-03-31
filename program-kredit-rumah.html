@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program kredit rumah - Alif Budiman Wahabbi</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="module" src="assets/script/script4.js"></script>
+</head>
+<body>
+    <div class="login">
+        <h1>Program kredit rumah</h1>
+        <form>
+            <label class="label-alif">Tipe rumah:</label>
+            <select  name="tipe">
+                <option value="alamanda">Alamanda</option>
+                <option value="mawar">Mawar</option>
+            </select>
+            <label class="label-alif">Lama Kredit:</label>
+            <input type="text" name="lama" placeholder="Lama Kredit" required/>
+            <div class="here-result">
+                
+            </div>
+            <div class="container">
+                <button type="button" id="proc" class="btn btn-primary btn-block btn-large">Proses.</button>
+            </div>
+            <div class="container">
+                <button type="button" id = "res" class="btn btn-primary btn-block btn-large" onclick="location.reload();">Reset.</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
