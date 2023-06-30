@@ -19,9 +19,6 @@
                 <div class="container button_spacing">
                     <a href="tambah.php" class="btn btn-sm btn-primary float-end">Tambah</a>
                 </div>
-                <div class="container button_spacing">
-                    <a href="sub/daftar_anggota.php" class="btn btn-sm btn-secondary float-end">Daftar Anggota</a>
-                </div>
                 <div class="card-body">
                     <table class="table table-bordered bg-white">
                     <thead>
